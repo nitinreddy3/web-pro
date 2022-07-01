@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nitinreddy3/web-pro#readme",
   "dependencies": {
-    "color": "^4.2.3",
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-graphql": "^0.12.0",
