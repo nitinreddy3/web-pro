@@ -2,21 +2,21 @@ const projects = [
   {
     id: '1',
     clientId: '1',
-    name: 'Project 1',
+    name: 'Ironman',
     description: 'Lorem ipsum',
     status: 'In progress',
   },
   {
     id: '2',
     clientId: '2',
-    name: 'Project 2',
+    name: 'Captain America',
     description: 'Lorem ipsum',
     status: 'In progress',
   },
   {
     id: '3',
     clientId: '3',
-    name: 'Project 3',
+    name: 'The Batman',
     description: 'Lorem ipsum',
     status: 'Done',
   }
