@@ -81,6 +81,15 @@ const mutation = new GraphQLObjectType({
         return new Client({ name, email, phone }).save();
       }
     },
+    deleteClient: {
+      type: ClientType,
+      args: {
+        id: { type: GraphQLNonNull(GraphQLID) }
+      },
+      resolve(parentValue, { id }) {
+        return Client.findByIdAndRemove(id);
+      }
+    },
     addProject: {
       type: ProjectType,
       args: {
